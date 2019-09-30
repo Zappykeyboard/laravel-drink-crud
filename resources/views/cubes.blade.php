@@ -13,13 +13,13 @@
 
   <div class="stats container">
     <div class="cube">
-      Prezzo massimo: {{$value->prezzo}}€
+      Prezzo massimo: {{$max}}€
     </div>
     <div class="cube">
-      Prezzo minimo: {{$value->prezzo}}€
+      Prezzo minimo: {{$min}}€
     </div>
     <div class="cube">
-      Prezzo medio: {{$value->prezzo}}€
+      Prezzo medio: {{$avg}}€
     </div>
   </div>
 @endsection
